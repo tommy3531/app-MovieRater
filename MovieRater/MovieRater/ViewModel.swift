@@ -38,10 +38,7 @@ class ViewModel: NSObject {
         let attributes = category["attributes"] as! NSDictionary
         let cell = attributes.value(forKey: "label") as? String
         print(attributes.value(forKey: "label"))
-        //print(attributes)
-        //print(indexPath.allKeys)
-        //print(indexPath)
-        //print(indexPath.value(forKey: "im:contentType"))
+
 
         return cell!
     }
