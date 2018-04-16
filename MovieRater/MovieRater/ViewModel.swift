@@ -38,8 +38,6 @@ class ViewModel: NSObject {
         let attributes = category["attributes"] as! NSDictionary
         let cell = attributes.value(forKey: "label") as? String
         print(attributes.value(forKey: "label"))
-
-
         return cell!
     }
     
